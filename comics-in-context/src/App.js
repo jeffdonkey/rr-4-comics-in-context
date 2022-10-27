@@ -5,7 +5,7 @@ import StylesContext from './StylesContext';
 
 function App() {
   const stylin = {
-    background: "#1ECD97",
+    background: "#0000ff",
     display: "inline-block",
     width: 120,
     height: 55,
