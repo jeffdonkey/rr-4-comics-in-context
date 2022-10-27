@@ -1,8 +1,10 @@
+// IMPORTS
 import React from 'react';
 import './App.css';
 import UserInterface from "./UserInterface";
 import StylesContext from './StylesContext';
 
+//MAIN FUNCTION
 function App() {
   const stylin = {
     background: "#0000ff",
@@ -33,5 +35,9 @@ function App() {
     </main>
   );
 }
+// line 9-17, "stylin" is being defined
+// lines 23 and 34 are wrapping code so that "StylesContext" is applied
+// the the enclosed data.
+// line 23 is providing "stylin" to StylesContext.js
 
 export default App
